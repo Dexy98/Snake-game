@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        /* ! Reset */
+        body,
+        html {
+            font-size: 16px;
+            font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        ol,
+        ul {
+            list-style-type: none;
+        }
+
+        img {
+            height: auto;
+        }
+
+        /* start */
+        canvas {
+            margin: 1rem 0;
+            box-shadow: rgba(0, 0, 0, 1) 0 5px 20px;
+        }
+
+        h4 {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Snake</h1>
+    <h4>Score: <span id="score"></span></h4>
+    <canvas id="game" width="400" height="400"></canvas>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
